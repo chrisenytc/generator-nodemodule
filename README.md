@@ -1,4 +1,4 @@
-# Node Module [![Build Status](https://secure.travis-ci.org/chrisenytc/generator-nodemodule.png?branch=master)](https://travis-ci.org/chrisenytc/generator-nodemodule) [![NPM version](https://badge-me.herokuapp.com/api/npm/generator-nodemodule.png)](http://badges.enytc.com/for/npm/generator-nodemodule)
+# Node Module [![Build Status](https://secure.travis-ci.org/chrisenytc/generator-nodemodule.png?branch=master)](https://travis-ci.org/chrisenytc/generator-nodemodule) [![NPM version](https://badge-me.herokuapp.com/api/npm/generator-nodemodule.png)](http://badges.enytc.com/for/npm/generator-nodemodule) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chrisenytc/generator-nodemodule/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 A Yeoman generator for making node modules
 
