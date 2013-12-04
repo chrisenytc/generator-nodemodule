@@ -40,17 +40,17 @@ module.exports = function (grunt) {
       },
       lib: {
         files: '<%= jshint.lib.src %>',
-        tasks: ['jshint:lib', 'mochaTest']
+        tasks: ['jshint:lib', 'mochacli']
       },
       test: {
         files: '<%= jshint.test.src %>',
-        tasks: ['jshint:test', 'mochaTest']
+        tasks: ['jshint:test', 'mochacli']
       }
     }
   });
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'mochaTest']);
-  grunt.registerTask('test', ['mochaTest']);
+  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('test', ['mochacli']);
 
 };
