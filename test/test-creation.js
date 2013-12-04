@@ -33,6 +33,7 @@ describe('nodemodule generator', function () {
       '.gitignore',
       'Gruntfile.js',
       '.jshintrc',
+      '.npmignore',
       '.travis.yml'
     ];
 

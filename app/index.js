@@ -97,6 +97,7 @@ NodemoduleGenerator.prototype.projectfiles = function projectfiles() {
   this.copy('gitignore', '.gitignore');
   this.copy('Gruntfile.js', 'Gruntfile.js');
   this.copy('jshintrc', '.jshintrc');
+  this.copy('npmignore', '.npmignore');
   this.template('_LICENSE', 'LICENSE');
   //Check if travis option is enabled
   if(this.enableTravis) {

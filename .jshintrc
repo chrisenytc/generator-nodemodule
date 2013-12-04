@@ -17,5 +17,12 @@
     "strict": true,
     "trailing": true,
     "smarttabs": true,
-    "white": true
+    "white": true,
+    "globals"   : {
+      "require": true,
+      "exports": true,
+      "console": true,
+      "describe": true,
+      "it": true
+    }
 }
