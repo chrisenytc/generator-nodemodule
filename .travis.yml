@@ -1,9 +1,7 @@
 language: node_js
 node_js:
-  - '0.8'
   - '0.10'
-deploy:
-  provider: npm
-  api_key: "Y2hyaXNlbnl0YzojbnBtIzE3OTMyNjg0MjUjMTk4"
-  on:
-    tags: true
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-nodemodule' ]; then cd .. && eval "mv $currentfolder generator-nodemodule" && cd generator-nodemodule; fi
+

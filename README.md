@@ -1,6 +1,6 @@
-# Node Module [![Build Status](https://secure.travis-ci.org/chrisenytc/generator-nodemodule.png?branch=master)](https://travis-ci.org/chrisenytc/generator-nodemodule) [![NPM version](https://badge-me.herokuapp.com/api/npm/generator-nodemodule.png)](http://badges.enytc.com/for/npm/generator-nodemodule) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chrisenytc/generator-nodemodule/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# Node Generator [![Build Status](https://secure.travis-ci.org/chrisenytc/generator-nodemodule.png?branch=master)](https://travis-ci.org/chrisenytc/generator-nodemodule) [![NPM version](https://badge-me.herokuapp.com/api/npm/generator-nodemodule.png)](http://badges.enytc.com/for/npm/generator-nodemodule) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chrisenytc/generator-nodemodule/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-A Yeoman generator for making node modules
+> A generator for [Yeoman](http://yeoman.io).
 
 
 ## Getting Started
@@ -44,7 +44,7 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 
 ## License
 
-Copyright 2013 Christopher EnyTC
+Copyright 2014 Christopher EnyTC
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -64,3 +64,4 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

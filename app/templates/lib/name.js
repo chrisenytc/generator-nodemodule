@@ -2,23 +2,23 @@
  * <%= _.slugify(appName) %>
  * https://github.com/<%= userName %>/<%= _.slugify(appName) %>
  *
- * Copyright (c) 2013 <%= authorName %>
+ * Copyright (c) 2014 <%= authorName %>
  * Licensed under the MIT license.
  */
 
 'use strict';
 
 /**
-* Module Dependencies
-*/
+ * Module Dependencies
+ */
 
 /**
 @class <%= _.slugify(appName) %>
  */
 
 /**
-* Private Methods
-*/
+ * Private Methods
+ */
 
 /*
  * Public Methods
@@ -36,6 +36,6 @@
  * @return {String} Returns hello name
  */
 
-exports.awesome = function(name) {
+exports.awesome = function (name) {
   return 'hello ' + name;
 };

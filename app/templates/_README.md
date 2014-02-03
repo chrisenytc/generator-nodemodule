@@ -1,4 +1,4 @@
-# <%= appName %> [![Build Status](https://secure.travis-ci.org/<%= userName %>/<%= _.slugify(appName) %>.png?branch=master)](http://travis-ci.org/<%= userName %>/<%= _.slugify(appName) %>) [![NPM version](https://badge-me.herokuapp.com/api/npm/<%= _.slugify(appName) %>.png)](http://badges.enytc.com/for/npm/<%= _.slugify(appName) %>)
+# <%= appName %> [![Build Status](https://secure.travis-ci.org/<%= userName %>/<%= _.slugify(appName) %>.png?branch=master)](http://travis-ci.org/<%= userName %>/<%= _.slugify(appName) %>) [![NPM version](https://badge-me.herokuapp.com/api/npm/<%= _.slugify(appName) %>.png)](http://badges.enytc.com/for/npm/<%= _.slugify(appName) %>) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/<%= userName %>/<%= _.slugify(appName) %>/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 <%= appDescription %>
 
@@ -34,7 +34,7 @@ Please submit all issues and pull requests to the [<%= userName %>/<%= _.slugify
 If you have any problem or suggestion please open an issue [here](https://github.com/<%= userName %>/<%= _.slugify(appName) %>/issues).
 
 ## License
-Copyright (c) 2013 <%= authorName %>
+Copyright (c) 2014 <%= authorName %>
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation

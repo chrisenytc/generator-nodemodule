@@ -8,7 +8,9 @@ var NodemoduleGenerator = module.exports = function NodemoduleGenerator(args, op
   yeoman.generators.Base.apply(this, arguments);
 
   this.on('end', function () {
-    this.installDependencies({ skipInstall: options['skip-install'] });
+    this.installDependencies({
+      skipInstall: options['skip-install']
+    });
   });
 
   this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
@@ -91,16 +93,17 @@ NodemoduleGenerator.prototype.app = function app() {
 };
 
 NodemoduleGenerator.prototype.projectfiles = function projectfiles() {
+
   this.template('_package.json', 'package.json');
   this.template('_README.md', 'README.md');
   this.copy('editorconfig', '.editorconfig');
   this.copy('gitignore', '.gitignore');
-  this.copy('Gruntfile.js', 'Gruntfile.js');
+  this.copy('Gulpfile.js', 'Gulpfile.js');
   this.copy('jshintrc', '.jshintrc');
   this.copy('npmignore', '.npmignore');
   this.template('_LICENSE', 'LICENSE');
   //Check if travis option is enabled
-  if(this.enableTravis) {
+  if (this.enableTravis) {
     this.copy('travis.yml', '.travis.yml');
   }
 
